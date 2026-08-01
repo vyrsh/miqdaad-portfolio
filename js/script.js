@@ -1,29 +1,54 @@
-// ===== Navbar scroll effect =====
-const navbar = document.getElementById('navbar');
+// ===== Sidebar scroll spy =====
+const sections = document.querySelectorAll('section[id], footer[id]');
+const sidebarLinks = document.querySelectorAll('.sidebar-link');
 
-window.addEventListener('scroll', () => {
-  if (window.scrollY > 40) {
-    navbar.classList.add('scrolled');
+function updateActiveLink() {
+  let current = 'hero';
+  sections.forEach(section => {
+    const top = section.offsetTop - 100;
+    const bottom = top + section.offsetHeight;
+    if (window.scrollY >= top && window.scrollY < bottom) {
+      current = section.getAttribute('id');
+    }
+  });
+
+  sidebarLinks.forEach(link => {
+    link.classList.toggle('active', link.dataset.section === current);
+  });
+}
+
+window.addEventListener('scroll', updateActiveLink);
+updateActiveLink();
+
+// ===== Sidebar toggle (mobile) =====
+const sidebar = document.getElementById('sidebar');
+const toggle = document.getElementById('sidebarToggle');
+const overlay = document.getElementById('sidebarOverlay');
+
+function closeSidebar() {
+  sidebar.classList.remove('open');
+  toggle.classList.remove('active');
+  overlay.classList.remove('visible');
+}
+
+function openSidebar() {
+  sidebar.classList.add('open');
+  toggle.classList.add('active');
+  overlay.classList.add('visible');
+}
+
+toggle.addEventListener('click', () => {
+  if (sidebar.classList.contains('open')) {
+    closeSidebar();
   } else {
-    navbar.classList.remove('scrolled');
+    openSidebar();
   }
 });
 
-// ===== Hamburger menu =====
-const hamburger = document.getElementById('hamburger');
-const navLinks = document.getElementById('navLinks');
+overlay.addEventListener('click', closeSidebar);
 
-hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('active');
-  navLinks.classList.toggle('open');
-});
-
-// Close nav on link click (mobile)
-document.querySelectorAll('.nav-link').forEach(link => {
-  link.addEventListener('click', () => {
-    hamburger.classList.remove('active');
-    navLinks.classList.remove('open');
-  });
+sidebarLinks.forEach(link => {
+  link.addEventListener('click', closeSidebar);
 });
 
 // ===== Scroll reveal animation =====
