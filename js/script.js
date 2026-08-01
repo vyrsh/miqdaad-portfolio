@@ -51,6 +51,8 @@ sidebarLinks.forEach(link => {
   link.addEventListener('click', closeSidebar);
 });
 
+
+
 // ===== Scroll reveal animation =====
 const revealElements = document.querySelectorAll('.reveal');
 
