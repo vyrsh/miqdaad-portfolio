@@ -1,0 +1,86 @@
+ Miqdaad Indori 11-Aug-2025 07:43 Pg 1 of 2
+📞 +91-73592-19535 | ✉ MiqdaadIndori@gmail.com | LinkedIn/in/miqdaad-indori | GitHub
+Summary: AI/ML Software Engineer, skilled in Python, PyTorch & Machine Learning models.
+ Implemented Neural Network architectures to solve AI/ML & Deep Learning problems.
+Current Location : Surat, Gujarat, India. Home Location : Surat, Gujarat, India.
+Skills :-
+Languages : Python, SQL, C++, LISP, JavaScript. OS : Arch Linux. Version Control : Git, GitHub.
+AI ML DL : PyTorch, Computer Vision, MLOps, Kubeflow, Numpy, Pandas, RAG, Matplotlib, SciKit Learn, MLP, CNN,
+ RNN, LSTM, vLLM, TFServing, TorchServe, Docker, Kubernetes.
+NVIDIA : TensorRT, Triton Inference server, CUDA, TAO toolkit.
+Data Analysis : Supervised learning, Unsupervised learning, Feature engineering, Dimensionality Reduction.
+Machine Learning : K-Nearest Neighbors(KNN), Decision Trees, Naive Bayes, Linear Regression,
+ Logistic Regression, XGBoost, Random Forest algorithm.
+Data Science : Cluster Analysis, k-Means Clustering, Collaborative Filtering, EDA.
+Experience :
+AI/ML Internship at Kapidhwaj.AI, IIT-Gandhinagar, Research Park. [January 2025 – July 2025] :
+– Computer Vision + Many related technologies, which I cant disclose because of NDA.
+– Involved in Optimizing complete pipeline from Local network devices to Cloud Servers, using FFmpeg and Edge.
+– Developed a custom service to reduced the cost for AI services, from 82,000 Rs. to 3200 Rs. per month. A 25x gain.
+ Compared to competitors like Vertex AI for Google Cloud.
+– Reduced network usage cost from 38 Gb to 1.8 Gb per day for Edge-devices. A 21x gain.
+– Reduced application downtime by 35%, by utilizing Linux bash scripting.
+– Developed High performance C++ Backend and NVIDIA Inference server for real time processing and notifications.
+– Guided two juniors to develop software for Edge-NPU-devices in python. And other AI services.
+Hackathon :
+MSP Cup 2024 : Classification of schizophrenia using EEG signals :
+– Won 4th price in overall competition. and 2nd prize in problem statement.
+– Optimized ResNet-18 Pretrained on ImageNet to achieve 96% accuracy with EEG data.
+– Developed alternate AutoEncoder binary classifier model. View project on cloud GPU
+Smart India Hackathon 2024 : Tree Health monitoring and Production estimation :
+– Selected at the college level for an innovative drone-based solution.
+– Authored a detailed specification document for Fruit orchard Tree Health monitoring & Production estimation using
+ drones. View Document Online
+Smart India Hackathon 2023 : RAG based Legal documentation Assistant :
+– Project selected at the college level.
+– Created specification for Retrieval Augmented Generation (RAG), based Legal documentation Assistant.
+– Lead a team of 6 college students. View Document Online
+Certifications :
+– HackerRank : Python Certificate : View Credentials
+– HackerRank : SQL Certificate : View Credentials
+– Google : Generative AI Certificate : View Credentials
+– Google : Diffusion Model Image Generation Certificate : View Credentials
+– Google : Large Language Models (LLM) Certificate : View Credentials
+– Google : Transformer and BERT Model Certificate : View Credentials
+– DeepLearning.AI : LangChain for LLM Application Development : View Achievement
+Education:
+Sarvajanik University - Pursuing B.Tech in (AI-DS) Artificial Intelligence and Data Science 2022 – 2027
+JEE Mains 92 %ile
+AI Projects Summary :
+– Computer Vision. View project on cloud GPU
+– Retrieval Augmented Generation (RAG).
+– Generative AI. View project on cloud GPU
+– Natural Language Processing (NLP). View project on cloud GPU
+– Recommendation System.
+– Geometric Deep Learning (Translation, Rotation, Permutation Equivariance). View project on cloud GPU
+– Graph Representation Learning.
+– Physics informed machine learning. View project on cloud GPU
+Project Details :
+Developed AI models with PyTorch & JAX Library:
+– Built and fine-tuned ResNet, U-Net, ViT, Ultralytics YOLO for image classification and segmentation.
+– Engineered VAE, GANs, Diffusion for image generation.
+– Implemented Transformers, Graph Neural Networks, Physics informed Neural Network.
+Recreated Transformer Neural Network from Research paper:
+– Reproduced the original ”Attention Is All You Need” paper.
+– Self-attention, Multi-head attention, Encoder-Decoder, Positional encoding.
+– Applied this model to Language Translation, Sentiment Analysis, Question Answering.
+Written Neural Network Framework in C language:
+– Created Neural Network with automatic back-propagation in C Language.
+– Utilized this Neural Network for image classification on MNIST Dataset.
+– Implemented Auto-Encoder for de-noising and image generation.
+Built Discord Bot:
+– Launched a Discord Bot, reaching 500+ users, leveraging the PyDiscord Library and MongoDB Cloud.
+– Integrated features for managing roles, ranks, logs, profiles, permissions, and a coin economy system.
+– Directed a 5-member team online, to implement the coin economy system.
+Leadership :
+IEEE Treasurer, SCET College executive committee 2023 :
+– Administered budgets, prepared financial reports, and presented updates to the executive committee.
+– Identified and secured funding opportunities to support organizational goals.
+Team Leader, Smart India Hackathon 2023 :
+– Lead a 6-member team to deliver the RAG-based Legal Documentation Assistant prototype on time.
+– Ensured successful execution of all project requirements from initiation to completion.
+Done but not mentioned: CNN, RNN, LSTM
+Data Exploration, numpy, scikit-learn, Supervised learning, Unsupervised learning, Feature engineering *,
+Dimensionality Reduction, k-Nearest Neighbors, Decision Trees, Naïve Bayes, Linear Regression, logistic
+regression, Cluster Analysis, k-Means Clustering *, Random forest algorithm *, XGBoost *, Collaborative
+filtering. Kubflow
